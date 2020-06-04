@@ -28,7 +28,7 @@ x_OC = line_gen(O,C)
 x_OD = line_gen(O,D)
 
 
-len = 100
+len = 200
 theta = np.linspace(0,2*np.pi,len)
 x_circ = np.zeros((2,len))
 y_circ = np.zeros((2,len))
@@ -55,5 +55,6 @@ plt.text( np.sqrt(24)* (1.2), -5 * (1.2) , 'C')
 plt.text( np.sqrt(75)* (1.1), -5 * (1.2) , 'D')
 plt.text(0,-5*(1.2),'M')
 plt.text(0,0,'O')
+plt.axis('equal')
 plt.legend(loc = 'upper right')
 plt.show()
