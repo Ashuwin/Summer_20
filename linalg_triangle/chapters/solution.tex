@@ -1,0 +1,24 @@
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\item The area of triangle $ABC$: \\
+\solution The area of triangle $ABC$ using cross product is obtained as:
+$$\frac{1}{2}\norm{(\vec{B}-\vec{A})\times(\vec{C}-\vec{A})}$$
+and it is found in the following python code:
+\begin{lstlisting}
+codes/tri_area_cp.py
+\end{lstlisting} 
+
+Area of $\triangle{ABC}$ = $10.5 units^2$
+
+\item The area of triangle $PQR$: \\
+\solution The area of triangle $PQR$ using Heron's formula is obtained as:
+$$\sqrt{s*(s-p)*(s-q)*(s-r)}$$
+where $$ s =\frac{p+q+r}{2}$$
+$$ p = \norm{\vec{R}-\vec{Q}}, q = \norm{\vec{P}-\vec{R}}, r = \norm{\vec{Q}-\vec{P}}$$
+and it is found in the following python code:
+\begin{lstlisting}
+codes/tri_area_heron.py
+\end{lstlisting} 
+
+Area of $\triangle{PQR}$ = $32 units^2$
+
+\end{enumerate}
