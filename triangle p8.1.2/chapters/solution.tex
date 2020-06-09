@@ -1,0 +1,22 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item Area of a triangle = $\frac{1}{2}\times(base)\times(height)$
+\\
+\item $\norm{\vec{M}-\vec{C}} = \norm{\vec{D}-\vec{N}} = x$ (Perpendicular distance between the parallel lines)  
+\\
+\item Area of $\triangle{ABC}$ = $\frac{1}{2}\times\norm{\vec{B}-\vec{A}})\times\norm{\vec{M}-\vec{C}}$ 
+$$ ar(\triangle{ABC})=\frac{1}{2}\times\norm{\vec{B}-\vec{A}}\times x$$ 
+\label{eqn:1}
+\\
+\item Area of $\triangle{ABD}$ = $\frac{1}{2}\times\norm{\vec{B}-\vec{A}})\times\norm{\vec{N}-\vec{D}}$  
+$$ ar(\triangle{ABD})=\frac{1}{2}\times\norm{\vec{B}-\vec{A}}\times x$$ 
+\label{eqn:2}
+\\
+\item From \ref{eqn:1} and \ref{eqn:2},
+$$\implies ar(\triangle{ABC}) = ar(\triangle{ABD})$$ \\
+
+Hence, the triangles with same base and between same parallels are equal in area.
+
+\end{enumerate}

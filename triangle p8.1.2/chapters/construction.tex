@@ -1,0 +1,46 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/triangle}}
+\caption{Triangles by Latex-Tikz}
+\label{fig:triangle1}	
+\end{figure}
+
+\item The design parameters used for construction of figure \ref{fig:triangle1} \\
+
+\solution See Table. \ref{table:table1}.
+\begin{table}[ht!]
+\centering
+\input{./tables/design_parameters}
+\caption{Triangles $ABC$ and $ABD$}
+\label{table:table1}	
+\end{table}
+
+\item Draw fig. \ref{fig:triangle2}.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/triangle.eps}
+\caption{Triangles generated using python}
+\label{fig:triangle2}
+\end{figure} 
+
+\solution The  following Python code generates Fig. \ref{fig:triangle2}
+
+\begin{lstlisting}
+codes/triangle.py
+\end{lstlisting}
+
+and the equivalent latex-tikz code generating Fig. \ref{fig:triangle2} is 
+\begin{lstlisting}
+figs/triangle.tex
+\end{lstlisting}
+%
+%The above latex code can be compiled as a standalone document as
+%\begin{lstlisting}
+%figs/quad_final.tex
+%end{lstlisting}
+\end{enumerate}
