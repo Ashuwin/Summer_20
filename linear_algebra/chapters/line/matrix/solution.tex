@@ -4,20 +4,19 @@
 %
 \item This problem is solved by comparing the respective elements in both the matrices
 \begin{enumerate}
-\item $$x=1, y=4, z=3$$
-\item $5+z = 5$ \\
+\item $\myvec{4&3\\x&5} = \myvec{y&z\\1&5}$
+$$x=1, y=4, z=3$$
+\item $\myvec{x+y&2\\5+z&xy} = \myvec{6&2\\5&8}$
+$5+z = 5$ \\
 $\implies z=0$ \\
 $x+y=6$ and $xy=8$ \\
 $\implies x=4,y=2$ or $x=2,y=4$
 $$x=4, y=2, z=0$$ or $$x=2, y=4, z=0$$  
-\item $x+y+z=9$ and $x+y=5$ \\
-$\implies z=4$\\
-$x+y+z=9$ and $y+z=7$\\
-$\implies x=2$\\
-$x+y+z=9$\\
-$2+y+4=9$\\
-$\implies y=3$
+\item $\myvec{x+y+z\\x+y\\y+z} = \myvec{9\\5\\7}$ \\
+Expressing it as $Ax = b$ and $x = A^{-1}b$, \\
+$$\myvec{1&1&1\\1&1&0\\0&1&1}\myvec{x\\y\\z} = \myvec{9\\5\\7}$$
+$$\myvec{x\\y\\z} = \myvec{1&1&1\\1&1&0\\0&1&1}^{-1}\myvec{9\\5\\7}$$
+$$\myvec{x\\y\\z} = \myvec{2\\3\\4}$$
 $$x=2, y=3, z=4$$
 \end{enumerate}
-
 \end{enumerate}

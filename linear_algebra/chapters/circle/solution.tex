@@ -1,38 +1,35 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-\item The general equation of circle, 
+\item The vector form of general equation of circle, 
 \begin{equation} \label{eq:circ}
-x^2+y^2+2gx+2fy+c=0
+\vec{x}^T\vec{x}-2\vec{O}^T\vec{x}+F=0
 \end{equation}
-whose centre is $\myvec{-g\\-f}$
-The vector form is, \\
-$\vec{x}^T\myvec{1&0\\0&1}\vec{x}+\myvec{2g&2f}\vec{x}+c=0$
-
+whose centre $\vec{O}$ is $\myvec{a\\b}$
 
 \item Point $\vec{A}$ = $\myvec{4\\1}$ lies on the circle. So, point $A$ satisfies the equation \ref{eq:circ} \\
-$\vec{\myvec{4\\1}}^T\myvec{1&0\\0&1}\vec{\myvec{4\\1}}+\myvec{2g&2f}\vec{\myvec{4\\1}}+c=0$ \\
+$\myvec{4\\1}^T\myvec{4\\1}-2\myvec{a&b}\myvec{4\\1}+F=0$ \\
 \begin{equation} \label{eq:circ_1}
-8g+2f+c+17=0
+-8a-2b+F+17=0
 \end{equation}
 
 \item Point $\vec{B}$ = $\myvec{6\\5}$ lies on the circle. So, point $B$ satisfies the equation \ref{eq:circ} \\
-$\vec{\myvec{6\\5}}^T\myvec{1&0\\0&1}\vec{\myvec{6\\5}}+\myvec{2g&2f}\vec{\myvec{6\\5}}+c=0$ \\
+$\myvec{6\\5}^T\myvec{6\\5}-2\myvec{a&b}\myvec{6\\5}+F=0$ \\
 \begin{equation} \label{eq:circ_2}
-12g+10f+c+61=0
+-12a-10b+F+61=0
 \end{equation}
 
-\item  Centre $\myvec{-g\\-f}$ lies on the line $\myvec{4&1}\vec{x}=16$ \\
-$\myvec{4&1}\vec{\myvec{-g\\-f}}=16$ \\
+\item  Centre $\vec{O}$ = $\myvec{a\\b}$ lies on the line $\myvec{4&1}\vec{x}=16$ \\
+$\myvec{4&1}\myvec{a\\b}=16$ \\
 \begin{equation} \label{eq:circ_3}
-4g+f+16=0
+4a+b-16=0
 \end{equation}
 
 \item Solving equations \ref{eq:circ_1}, \ref{eq:circ_2} and \ref{eq:circ_3} \\
-$$ g = -3, f = -4, c = 15$$
+$$ \vec{O} = \myvec{3\\4}, F = 15$$
 $\implies$ Equation of the circle is $x^2+y^2-6x-8y+15=0$ \\ 
 The vector form is 
-$$\vec{x}^T\myvec{1&0\\0&1}\vec{x}+\myvec{-6&-8}\vec{x}+15=0$$
+$$\vec{x}^T\vec{x}-2\myvec{3&4}\vec{x}+15=0$$
 
 \item The circle in Fig.\ref{fig:circ_1} is generated using the following python code 
 \begin{lstlisting}
