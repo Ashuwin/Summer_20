@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  14 JUN 2020 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  16 JUN 2020 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1878,7 +1878,7 @@ nverted-to.pdf>
 /tri_equi-eps-converted-to.pdf ./codes/line/miscellaneous/tri_equi.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/miscellaneous/tri_equi-eps-converted-to.pdf, id=532, 526.12558pt 
+<./codes/line/miscellaneous/tri_equi-eps-converted-to.pdf, id=533, 526.12558pt 
 x 362.7954pt>
 File: ./codes/line/miscellaneous/tri_equi-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1897,12 +1897,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
@@ -1915,13 +1915,13 @@ Package epstopdf Info: Source file: <./codes/circle/circle.eps>
 (epstopdf)                    size: 13280 bytes
 (epstopdf)             Command: <repstopdf --outfile=./codes/circle/circle-eps-
 converted-to.pdf ./codes/circle/circle.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle/circle-eps-converted-to.pdf, id=539, 526.12558pt x 362.7954pt>
+<./codes/circle/circle-eps-converted-to.pdf, id=540, 526.12558pt x 362.7954pt>
 File: ./codes/circle/circle-eps-converted-to.pdf Graphic file (type pdf)
 <use ./codes/circle/circle-eps-converted-to.pdf>
 Package pdftex.def Info: ./codes/circle/circle-eps-converted-to.pdf  used on in
-put line 41.
+put line 40.
 (pdftex.def)             Requested size: 252.0pt x 173.7689pt.
 ) (./chapters/conics/problem.tex) (./chapters/conics/solution.tex [7 <./codes/l
 ine/miscellaneous/tri_equi-eps-converted-to.pdf> <./codes/circle/circle-eps-con
@@ -1937,7 +1937,7 @@ df>
 s-converted-to.pdf ./codes/conics/conics_1.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conics/conics_1-eps-converted-to.pdf, id=633, 526.12558pt x 362.7954pt
+<./codes/conics/conics_1-eps-converted-to.pdf, id=634, 526.12558pt x 362.7954pt
 >
 File: ./codes/conics/conics_1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./codes/conics/conics_1-eps-converted-to.pdf>
@@ -1955,7 +1955,7 @@ df>
 s-converted-to.pdf ./codes/conics/conics_2.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conics/conics_2-eps-converted-to.pdf, id=636, 526.12558pt x 362.7954pt
+<./codes/conics/conics_2-eps-converted-to.pdf, id=637, 526.12558pt x 362.7954pt
 >
 File: ./codes/conics/conics_2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./codes/conics/conics_2-eps-converted-to.pdf>
@@ -1979,7 +1979,7 @@ df>
 s-converted-to.pdf ./codes/conics/conics_3.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conics/conics_3-eps-converted-to.pdf, id=639, 526.12558pt x 362.7954pt
+<./codes/conics/conics_3-eps-converted-to.pdf, id=640, 526.12558pt x 362.7954pt
 >
 File: ./codes/conics/conics_3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./codes/conics/conics_3-eps-converted-to.pdf>
@@ -2040,13 +2040,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
- 40437 strings out of 481239
- 913243 string characters out of 5920377
+ 40439 strings out of 481239
+ 913272 string characters out of 5920377
  1337868 words of memory out of 5000000
  54619 multiletter control sequences out of 15000+600000
  598744 words of font info for 157 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,18n,91p,501b,1270s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,91p,501b,1614s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -2056,10 +2056,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on project_4.pdf (9 pages, 217599 bytes).
+Output written on project_4.pdf (9 pages, 217769 bytes).
 PDF statistics:
- 882 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 187 named destinations out of 1000 (max. 500000)
+ 884 PDF objects out of 1000 (max. 8388607)
+ 524 compressed objects within 6 object streams
+ 189 named destinations out of 1000 (max. 500000)
  494 words of extra memory for PDF output out of 10000 (max. 10000000)
 
