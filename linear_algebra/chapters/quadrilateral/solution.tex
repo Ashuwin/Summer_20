@@ -3,9 +3,13 @@
 \numberwithin{equation}{enumi}
 \item The area of triangle $ABC$: \\
 \solution The area of triangle $ABC$ using cross product is obtained as:
-$$\frac{1}{2}\norm{(\vec{B}-\vec{A})\times(\vec{C}-\vec{A})}$$
-$$\frac{1}{2}\norm{(\myvec{-3\\-5}-\myvec{-4\\2})\times(\myvec{3\\-2}-\myvec{-4\\2})}$$
-$$\frac{1}{2}\norm{\myvec{1\\-7} \times \myvec{7\\-4}} = \frac{45}{2}$$
+\begin{align}
+\frac{1}{2}\norm{(\vec{B}-\vec{A})\times(\vec{C}-\vec{A})}
+\\
+\frac{1}{2}\norm{(\myvec{-3\\-5}-\myvec{-4\\2})\times(\myvec{3\\-2}-\myvec{-4\\2})}
+\\
+\frac{1}{2}\norm{\myvec{1\\-7} \times \myvec{7\\-4}} = \frac{45}{2}
+\end{align}
 Area of $\triangle{ABC}$ = $22.5 units^2$
 and it is found in the following python code:
 \begin{lstlisting}
@@ -14,9 +18,13 @@ codes/tri_area_ABC.py
 
 \item The area of triangle $ACD$: \\
 \solution The area of triangle $ACD$ using Heron's formula is obtained as:
-$$\frac{1}{2}\norm{(\vec{C}-\vec{A})\times(\vec{D}-\vec{A})}$$
-$$\frac{1}{2}\norm{(\myvec{3\\-2}-\myvec{-4\\2})\times(\myvec{2\\3}-\myvec{-4\\2})}$$
-$$\frac{1}{2}\norm{\myvec{7\\-4} \times \myvec{6\\1}} = \frac{31}{2}$$
+\begin{align}
+\frac{1}{2}\norm{(\vec{C}-\vec{A})\times(\vec{D}-\vec{A})}
+\\
+\frac{1}{2}\norm{(\myvec{3\\-2}-\myvec{-4\\2})\times(\myvec{2\\3}-\myvec{-4\\2})}
+\\
+\frac{1}{2}\norm{\myvec{7\\-4} \times \myvec{6\\1}} = \frac{31}{2}
+\end{align}
 Area of $\triangle{ACD}$ = $15.5 units^2$
 and it is found in the following python code:
 \begin{lstlisting}

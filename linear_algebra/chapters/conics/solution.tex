@@ -4,15 +4,17 @@
 \item For a general polynomial equation of degree 2 , \\
 $p(x,y) \implies Ax^2+Bxy+Cy^2+Dx+Ey+F=0$ \\
 The vector form is  
-\begin{equation} \label{eq:poly}
-\vec{x}^T\myvec{A&B/2\\B/2&C}\vec{x}+\myvec{D&E}\vec{x}+F=0 
-\end{equation}
+\begin{align}
+\vec{x}^T\myvec{A&B/2\\B/2&C}\vec{x}+\myvec{D&E}\vec{x}+F=0 \label{eq:poly}
+\end{align} 
 
 \begin{enumerate}
 
 \item $x^2-3x-10=0$  \\
-The vector form is \\
-$\vec{x}^T\myvec{1&0\\0&0}\vec{x}+\myvec{-3&0}\vec{x}-10=0$
+The vector form from the equation is \ref{eq:poly} is 
+\begin{align}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}+\myvec{-3&0}\vec{x}-10=0
+\end{align}
 
 The values of $\vec{x}$ are found in the following python code
 \begin{lstlisting}
@@ -32,9 +34,11 @@ codes/conics/conics_1.py
 \end{figure} 
 
 \item $2x^2+x-6=0$ \\
-The vector form is  \\
-$\vec{x}^T\myvec{2&0\\0&0}\vec{x}+\myvec{1&0}\vec{x}-6
-=0$
+The vector form from the equation is \ref{eq:poly} is
+\begin{align}
+\vec{x}^T\myvec{2&0\\0&0}\vec{x}+\myvec{1&0}\vec{x}-6
+=0
+\end{align}
 The values of $\vec{x}$ are found in the following python code
 \begin{lstlisting}
 codes/conics/conics_2.py
@@ -53,8 +57,10 @@ codes/conics/conics_2.py
 \end{figure} 
 
 \item $\sqrt{2}x^2+7x+5\sqrt{2}=0$ \\
-The vector form is  \\
-$\vec{x}^T\myvec{\sqrt{2}&0\\0&0}\vec{x}+\myvec{7&0}\vec{x}+5\sqrt{2}=0$
+The vector form from the equation is \ref{eq:poly} is
+\begin{align}
+\vec{x}^T\myvec{\sqrt{2}&0\\0&0}\vec{x}+\myvec{7&0}\vec{x}+5\sqrt{2}=0
+\end{align}
  
 The values of $\vec{x}$ are found in the following python code
 \begin{lstlisting}
@@ -74,8 +80,10 @@ codes/conics/conics_3.py
 \end{figure} 
 
 \item $2x^2-x+\frac{1}{8}=0$ \\
-The vector form is  \\
-$\vec{x}^T\myvec{2&0\\0&0}\vec{x}+\myvec{-1&0}\vec{x}+\frac{1}{8}=0$
+The vector form from the equation is \ref{eq:poly} is
+\begin{align}
+\vec{x}^T\myvec{2&0\\0&0}\vec{x}+\myvec{-1&0}\vec{x}+\frac{1}{8}=0
+\end{align}
 
 The values of $\vec{x}$ are found in the following python code
 \begin{lstlisting}
@@ -96,8 +104,10 @@ codes/conics/conics_4.py
 
 
 \item $100x^2-20x+1=0$ \\
-The vector form is  \\
-$\vec{x}^T\myvec{100&0\\0&0}\vec{x}+\myvec{-20&0}\vec{x}+1=0$
+The vector form from the equation is \ref{eq:poly} is
+\begin{align}
+\vec{x}^T\myvec{100&0\\0&0}\vec{x}+\myvec{-20&0}\vec{x}+1=0
+\end{align}
 
 The values of $\vec{x}$ are found in the following python code
 \begin{lstlisting}

@@ -3,9 +3,13 @@
 \numberwithin{equation}{enumi}
 \item The area of triangle $ABC$: \\
 \solution The area of triangle $ABC$ using cross product is obtained as:
-$$\frac{1}{2}\norm{(\vec{B}-\vec{A})\times(\vec{C}-\vec{A})}$$
-$$\frac{1}{2}\norm{(\myvec{-1\\0}-\myvec{2\\3})\times(\myvec{2\\-4}-\myvec{2\\3})}$$
-$$\frac{1}{2}\norm{\myvec{-3\\-3} \times \myvec{0\\-7}} = \frac{21}{2}$$
+\begin{align}
+\frac{1}{2}\norm{(\vec{B}-\vec{A})\times(\vec{C}-\vec{A})}
+\\
+\frac{1}{2}\norm{(\myvec{-1\\0}-\myvec{2\\3})\times(\myvec{2\\-4}-\myvec{2\\3})}
+\\
+\frac{1}{2}\norm{\myvec{-3\\-3} \times \myvec{0\\-7}} = \frac{21}{2}
+\end{align}
 Area of $\triangle{ABC}$ = $10.5 units^2$
 and it is found in the following python code:
 \begin{lstlisting}
@@ -25,9 +29,13 @@ codes/triangle/triangle1.py
 
 \item The area of triangle $PQR$: \\
 \solution The area of triangle $PQR$ using Heron's formula is obtained as:
-$$\frac{1}{2}\norm{(\vec{Q}-\vec{P})\times(\vec{R}-\vec{P})}$$
-$$\frac{1}{2}\norm{(\myvec{3\\-5}-\myvec{-5\\-1})\times(\myvec{5\\2}-\myvec{-5\\-1})}$$
-$$\frac{1}{2}\norm{\myvec{8\\-4} \times \myvec{10\\3}} = \frac{64}{2}$$
+\begin{align}
+\frac{1}{2}\norm{(\vec{Q}-\vec{P})\times(\vec{R}-\vec{P})}
+\\
+\frac{1}{2}\norm{(\myvec{3\\-5}-\myvec{-5\\-1})\times(\myvec{5\\2}-\myvec{-5\\-1})}
+\\
+\frac{1}{2}\norm{\myvec{8\\-4} \times \myvec{10\\3}} = \frac{64}{2}
+\end{align}
 Area of $\triangle{PQR}$ = $32 units^2$
 and it is found in the following python code:
 \begin{lstlisting}
